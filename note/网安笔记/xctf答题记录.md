@@ -1,0 +1,31 @@
+# xctf答题记录
+2019.12.23
+misc:
+this_is_flag
+直接从题目中获知flag格式 然后提交flag
+ext3
+linux中载入ext3光盘即可看到桌面有flag文件，光盘格式为iso
+give_you_flag
+分离gif 获取有二维码的部分 然后拼合定位角 扫码
+pdf
+直接用编辑器打开 移开图片 获得flag
+kali中可以直接复制到flag
+坚持60s
+使用java的编译器打开jar文件 获取flag
+(压缩包打开直接用notepad++打开也行)
+gif
+将黑转为1 白转为0 104张图即为13个2进制数
+然后将二进制转为字符串 获得flag
+掀桌子
+以后补充
+Web:
+view_source
+火狐打开网页控制台 查看源码
+get_post
+用burpsuite弄半天没弄开 最后用maxhacker提交
+robots
+反爬协议，直接在url后面加robots.txt，获取到php，访问php获取flag
+disabled_button
+火狐打开网页控制器 将disabled改成abled即可点击按钮
+webshell
+网页构造查看桌面文件 再查看具体文件 或者直接菜刀连
